@@ -22,3 +22,8 @@ for (var i = 0; i < word.length; i++) {
 
 var remainingLetters = word.length
 
+while (remainingLetters > 0) {
+    alert(answerArray.join(" "))
+
+    var guess = prompt("Guess a letter, or click Cancel to stop playing.") // Update the game state with a guess.
+}
